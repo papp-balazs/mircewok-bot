@@ -46,4 +46,4 @@ async def on_message(message):
                 if vc.guild == message.guild:
                     await vc.disconnect()
 
-bot.run('NDY0Nzg2NDkwNTUyMDkwNjI0.Wz9wJg.SGYJRyrIcyKpO-DLGTl4Ly52D9Q')
+bot.run('NDY0Nzg2NDkwNTUyMDkwNjI0.Wz9wJg.NCklFLCDfbOlsUSgnNjiBKXhAbk')
