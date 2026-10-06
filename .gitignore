@@ -1,0 +1,29 @@
+# Virtuális környezetek (nem kerülnek a repóba)
+bot-env/
+venv/
+.venv/
+env/
+
+# Titkok: a token soha ne kerüljön verziókezelés alá
+.env
+.env.*
+!.env.example
+token.txt
+*.token
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Naplók, szerkesztők, OS
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
