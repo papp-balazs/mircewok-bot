@@ -1,0 +1,8 @@
+# Python 3.12-n tesztelve (3.13-on is fut).
+# A [voice] extra hozza a PyNaCl-t és a davey-t. A davey a Discord kötelező DAVE hangtitkosításához
+# kell (2026 márciusa óta), a hozzá szükséges támogatás a discord.py 2.7.0-tól van, a 2.7.1 pedig
+# hibával megáll, ha hiányzik.
+discord.py[voice]>=2.7.1,<3
+python-dotenv>=1.0,<2
+# Tartalék ffmpeg, ha a rendszeren nincs telepítve (Windowson ez a kényelmes út).
+imageio-ffmpeg>=0.5,<1
